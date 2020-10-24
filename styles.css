@@ -150,6 +150,7 @@ article.specialize-text {
     color: #186684;
     margin-bottom: 20px;
     font-size: 5rem;
+    font-weight: 400;
 }
 
 .specialize-p {
@@ -188,6 +189,7 @@ article.foot-care-text {
     color: #186684;
     margin-bottom: 20px;
     font-size: 5rem;
+    font-weight: 400;
 }
 
 .foot-care-p {
@@ -220,6 +222,7 @@ h2.giving-back-title {
     color: #186684;
     margin-bottom: 20px;
     font-size: 5rem;
+    font-weight: 400;
 }
 
 p.giving-back-p {
@@ -269,6 +272,7 @@ padding: 30px;
     text-align: center;
     padding-top: 90px;
     padding-bottom: 90px;
+    font-weight: 400;
 }
 
 .gram-1, 
@@ -276,6 +280,7 @@ padding: 30px;
 .gram-3 {
     float: left;
     width: calc(33.3% - 80px);
+    margin-bottom: 70px;
 }
 
 .gram-1 {
@@ -287,3 +292,71 @@ padding: 30px;
     margin-right: 40px;
 }
 
+/* The End Styles */
+.the-end {
+    background-color: #F4F4F4;
+    height: 300px;
+}
+
+footer h3 {
+    color: #e85b26;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+footer nav {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer a {
+    font-size: 2rem;
+}
+
+.contact-title,
+.updated-form {
+    float: left;
+    width: 50%;
+}
+
+.contact-title {
+    padding-left: 80px;
+}
+
+.contact-title h3 {
+    margin-bottom: 15px;
+}
+
+.contact-title p,
+.updated-form p {
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+
+.updated-form h3 {
+    margin-bottom: 5px;
+}
+
+.updated-form p {
+    margin-bottom: 5px;
+}
+
+form input {
+    padding-left: 7px;
+    margin-right: 0;
+}
+
+label a {
+    margin-left: 0;
+    font-size: 1rem;
+    background-color: #186684;
+    border: 2px solid #e85b26;
+    color: white;
+    padding: 3px 4px;
+}
