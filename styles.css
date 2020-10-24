@@ -40,11 +40,6 @@ h2 {
 p {
     font-size: 2.2rem;
 }
-.wrapper {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
 
 header {
     position: relative;
@@ -244,7 +239,6 @@ p.giving-back-p {
     background-position: center;
     background-repeat: no-repeat;
     height: 400px;
-    font-family: ‘Catamaran’, sans-serif;
     font-size: 3rem;
     color: #186684;
 }
@@ -269,4 +263,27 @@ padding: 30px;
     color: #E85B26;
 }
 
+/* The Gram Styles */
+.gram-title {
+    color: #186684;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.gram-1, 
+.gram-2, 
+.gram-3 {
+    float: left;
+    width: calc(33.3% - 80px);
+}
+
+.gram-1 {
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.gram-2 {
+    margin-right: 40px;
+}
 
