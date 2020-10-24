@@ -45,6 +45,10 @@ header {
     position: relative;
 }
 
+header input {
+    visibility: hidden;
+}
+
 /* Font Styles */
 body {
     font-family: 'Nova Flat', cursive;
@@ -68,6 +72,9 @@ i {
 }
 
 /* Header Styles */
+.fa-bars {
+    visibility: hidden;
+}
 
 header {
   background-image: url(./assets/image-1@2x.png);
@@ -366,4 +373,62 @@ label a {
     color: #F4F4F4;
     text-align: center;
     padding: 5px;
+}
+
+
+/* Responsive Design - Mobile Version */
+@media (max-width: 667px) and (min-width: 375px) {
+
+    .fa-bars {
+        color: #186684;
+        visibility: visible;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: right;
+        padding-left: 280px;
+        padding-top: 20px;
+    }
+
+
+    header nav {
+        display: none;
+    }
+
+    input:checked + nav {
+        display: block;
+    }
+
+        input {
+        position: absolute;
+        left: -10000px;
+    }
+    nav ul li {
+        float: left;
+        clear:both;
+    }
+
+        header nav {
+        position: absolute;
+        top: 90px;
+        right: 10px;
+        padding: 20px;
+    }
+
+
+    .icon-bar {
+        display: none;
+    }
+
+    header {
+        background-position: 32% 30%;
+    }
+
+    h1.title {
+        /* border: 1px solid red; */
+        width: 55%;
+        z-index: 1000;
+        font-size: 5rem;
+
+    }
+
 }
