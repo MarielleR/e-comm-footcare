@@ -360,3 +360,10 @@ label a {
     color: white;
     padding: 3px 4px;
 }
+
+.copyright {
+    background-color: #1f2022;
+    color: #F4F4F4;
+    text-align: center;
+    padding: 5px;
+}
