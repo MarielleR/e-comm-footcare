@@ -103,7 +103,7 @@ nav.nav-bar {
     font-size: 2rem;
 }
 
-/* Need help below with position absolute/relative */
+
 h1.title {
     font-size: 8.5rem;
     /* I had to google how to make a hex code transparent, below */
@@ -379,6 +379,7 @@ label a {
 /* Responsive Design - Mobile Version */
 @media (max-width: 667px) and (min-width: 375px) {
 
+/* Header styles  */
     .fa-bars {
         color: #186684;
         visibility: visible;
@@ -428,7 +429,48 @@ label a {
         width: 55%;
         z-index: 1000;
         font-size: 5rem;
-
     }
 
+    /* We Specialize Styles */
+
+    div.shoe-rack-pic {
+        width: 100%;
+    }
+
+    img.shoe-rack-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    article.specialize-text {
+        padding: 0;
+        margin-top: 50px;
+        width: 100%;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 45px;
+    }
+
+    h2.specialize-title {
+        font-size: 3.5rem;
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        /* border: 1px solid red; */
+        text-align: justify;
+        padding-left: 10%;
+    }
+
+    .specialize-p {
+        font-size: 1.8rem;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .read-more-button {
+        text-align: center;
+        margin-left: 117px;
+    }
 }
