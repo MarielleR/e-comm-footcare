@@ -473,4 +473,51 @@ label a {
         text-align: center;
         margin-left: 117px;
     }
+
+    /* Foot Care Styles */
+
+    .foot-care-img {
+        width: 100%;
+        display: block;
+        /* border: 2px red solid; */
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    div.foot-care-container {
+        width: 200%;
+        /* border: 2px red solid; */
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    article.foot-care-text {
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+
+    h2.foot-care-title {
+        font-size: 3.5rem;
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        text-align: justify;
+        padding-left: 120px;
+        margin-top: 0;
+    }
+
+    p.foot-care-p {
+        font-size: 1.8rem;
+        margin-bottom: 35px;
+        margin-right: 320px;
+        padding-right: 70px;
+        margin-left: 20px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    /*  */
 }
