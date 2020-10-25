@@ -646,3 +646,276 @@ label a {
         bottom: 22px;
     }
 }
+
+/* Tablet/iPad View - Responsive Design */
+@media (max-width: 1024px) and (min-width: 668px) {
+/* Header styles  */
+    /* .fa-bars {
+        color: #186684;
+        visibility: visible;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: right;
+        padding-left: 280px;
+        padding-top: 20px;
+    }
+
+
+    header nav {
+        display: none;
+    }
+
+    input:checked + nav {
+        display: block;
+    }
+
+        header input {
+        position: absolute;
+        left: -10000px;
+    }
+    nav ul li {
+        float: left;
+        clear:both;
+    }
+
+        header nav {
+        position: absolute;
+        top: 90px;
+        right: 10px;
+        padding: 20px;
+    }*/
+
+
+    .icon-bar {
+        display: none;
+    }
+
+    header {
+        background-position: 32% 30%;
+    }
+
+    h1.title {
+        /* border: 1px solid red; */
+        width: 55%;
+        z-index: 1000;
+        font-size: 8rem;
+    }
+
+    /* We Specialize Styles */
+
+    div.shoe-rack-pic {
+        width: 100%;
+    }
+
+    img.shoe-rack-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    article.specialize-text {
+        padding: 0;
+        margin-top: 50px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 45px;
+    }
+
+    h2.specialize-title {
+        font-size: 3.5rem;
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .specialize-p {
+        font-size: 1.8rem;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .read-more-button {
+        text-align: center;
+        margin-left: 270px;
+    }
+
+    /* Foot Care Styles */
+    div.foot-care-img {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+        padding-right: 0;
+        float: none;
+        clear: none;
+    }
+
+    div.foot-care-container {
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0px;
+        clear: none;
+        text-align: center;
+    }
+
+    article.foot-care-text {
+        width: 100%;
+        padding: 0;
+        margin: 0px;
+        padding-right: 0;
+        margin-bottom: 50px;
+        float: none;
+        clear: none;
+    }
+
+    h2.foot-care-title {
+        font-size: 3.5rem;
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    p.foot-care-p {
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    #foot-care-button {
+        margin-left: 10px;
+    }
+
+    /* Giving Back Styles */
+    .giving-back-container {
+        width: 100%;
+    }
+
+    div.giving-img {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0px 15px 10px 15px; 
+    }
+
+    article.giving-text {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    h2.giving-back-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    p.giving-back-p {
+        font-size: 1.8rem;
+        text-align: left;
+        margin-right: 20px;
+        margin-left: 25px;
+    }
+
+    /* PCR Section Styles */
+    .pcr-section li {
+        display: block;
+    }
+
+    .pcr-section {
+        height: 45vh;
+        font-size: 1.8rem;
+        background-position: center;
+    }
+
+    .pcr-icons {
+        width: 50%;
+        padding: 0 20px 0 20px;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 60px;
+    }
+
+    /* The Gram Styles */
+    .gram-3 {
+        display: none;
+    }
+
+    .gram-title {
+        font-size: 3rem;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .gram-1,
+    .gram-2 {
+        width: 50%;
+        margin: 0;
+        padding: 10px;
+        margin-bottom: 25px;
+    }
+
+    /* Footer/The End Styles */
+    .the-end {
+        height: 400px;
+    }
+    footer nav li {
+        float: none;
+        clear: none;
+    }
+
+    footer h3 {
+        font-size: 4rem;
+    }
+
+    div.footer-parts-container {
+        margin-left: 90px;
+    }
+
+    div.contact-title {
+        float: none;
+        text-align: center;
+        margin-left: 60px;
+        margin-bottom: 40px;
+    }
+
+    .contact-title p {
+        font-size: 1.3rem;
+    }
+
+    div.updated-form {
+        float: none;
+        text-align: center;
+        margin-left: 110px;
+        margin-bottom: 60px;
+    }
+
+    .updated-form p {
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    input {
+        margin-bottom: 20px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    label a{
+        margin-top: 10px;
+        padding: 3px 46px;
+        margin-bottom: 10px;
+    }
+
+    div.copyright {
+        display: block;
+        /* margin-top: 15px; */
+        padding: 10px;
+        /* margin-left: 220px; */
+        /* position: relative;
+        bottom: 22px; */
+    }
+}
