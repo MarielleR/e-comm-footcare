@@ -572,4 +572,18 @@ label a {
     .gram-3 {
         display: none;
     }
+
+    .gram-title {
+        font-size: 3rem;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .gram-1,
+    .gram-2 {
+        width: 50%;
+        margin: 0;
+        padding: 10px;
+        margin-bottom: 25px;
+    }
 }
