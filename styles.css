@@ -22,21 +22,26 @@ html {
 ul {
     list-style: none;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 img {
     width: 100%;
     height: auto;
     display: block;
 }
+
 figure {
     margin: 0;
 }
+
 h2 {
     font-size: 4rem;
 }
+
 p {
     font-size: 2.2rem;
 }
@@ -53,7 +58,6 @@ header input {
 body {
     font-family: 'Nova Flat', cursive;
 }
-
 
 a .pcr-a {
     font-family: 'Catamaran', sans-serif;
@@ -77,17 +81,13 @@ i {
 }
 
 header {
-  background-image: url(./assets/image-1@2x.png);
-  height: 100vh;
-  max-width: 100vw;
-  width: 100%;
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-  /* background-attachment: fixed; */
-  background-position: center;
-  /* margin-top: 0;
-  margin-right: 0; */
-  margin: 0 auto;
+    background-image: url(./assets/image-1@2x.png);
+    height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
 }
 
 a.blue,
@@ -102,7 +102,6 @@ a.blue:hover {
 nav.nav-bar {
     font-size: 2rem;
 }
-
 
 h1.title {
     font-size: 8.5rem;
@@ -165,7 +164,6 @@ article.specialize-text {
     margin-bottom: 20px;
 }
 
-
 div.shoe-rack-pic {
     float: left;
     width: 50%;
@@ -213,6 +211,7 @@ div.foot-care-img {
 div.giving-back-container {
     background-color: #E3e4ea;
 }
+
 div.giving-img {
     float: left;
     width: 50%;
@@ -252,7 +251,6 @@ p.giving-back-p {
     font-size: 3rem;
     color: #186684;
 }
-
 
 .pcr-icons {
     background-color: #F4F4F4;
@@ -375,7 +373,6 @@ label a {
     padding: 5px;
 }
 
-
 /* Responsive Design - Mobile Version */
 @media (max-width: 667px) and (min-width: 375px) {
 
@@ -390,7 +387,6 @@ label a {
         padding-top: 20px;
     }
 
-
     header nav {
         display: none;
     }
@@ -399,22 +395,22 @@ label a {
         display: block;
     }
 
-        header input {
+    header input {
         position: absolute;
         left: -10000px;
     }
+
     nav ul li {
         float: left;
         clear:both;
     }
 
-        header nav {
+    header nav {
         position: absolute;
         top: 90px;
         right: 10px;
         padding: 20px;
     }
-
 
     .icon-bar {
         display: none;
@@ -425,7 +421,6 @@ label a {
     }
 
     h1.title {
-        /* border: 1px solid red; */
         width: 55%;
         z-index: 1000;
         font-size: 5rem;
@@ -458,7 +453,6 @@ label a {
         width: 100%;
         display: inline-block;
         padding: 0;
-        /* border: 1px solid red; */
         text-align: justify;
         padding-left: 10%;
     }
@@ -650,17 +644,6 @@ label a {
 /* Tablet/iPad View - Responsive Design */
 @media (max-width: 1024px) and (min-width: 668px) {
 /* Header styles  */
-    /* .fa-bars {
-        color: #186684;
-        visibility: visible;
-        font-size: 3rem;
-        font-weight: 400;
-        text-align: right;
-        padding-left: 280px;
-        padding-top: 20px;
-    }
-
-
     header nav {
         display: none;
     }
@@ -669,16 +652,17 @@ label a {
         display: block;
     }
 
-        header input {
+    header input {
         position: absolute;
         left: -10000px;
     }
+
     nav ul li {
         float: left;
         clear:both;
     }
 
-        header nav {
+    header nav {
         position: absolute;
         top: 90px;
         right: 10px;
@@ -860,6 +844,7 @@ label a {
     .the-end {
         height: 400px;
     }
+    
     footer nav li {
         float: none;
         clear: none;
