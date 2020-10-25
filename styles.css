@@ -547,4 +547,29 @@ label a {
         margin-right: 20px;
         margin-left: 25px;
     }
+
+    /* PCR Section Styles */
+    .pcr-section li {
+        display: block;
+    }
+
+    .pcr-section {
+        height: 65vh;
+        font-size: 1.8rem;
+        background-position: center;
+    }
+
+    .pcr-icons {
+        width: 50%;
+        padding: 0 20px 0 20px;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+    /* The Gram Styles */
+    .gram-3 {
+        display: none;
+    }
 }
