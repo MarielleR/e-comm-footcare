@@ -399,7 +399,7 @@ label a {
         display: block;
     }
 
-        input {
+        header input {
         position: absolute;
         left: -10000px;
     }
@@ -475,28 +475,31 @@ label a {
     }
 
     /* Foot Care Styles */
-
-    .foot-care-img {
+    div.foot-care-img {
         width: 100%;
         display: block;
-        /* border: 2px red solid; */
         margin-right: 0;
         padding-right: 0;
+        float: none;
+        clear: none;
     }
 
     div.foot-care-container {
-        width: 200%;
-        /* border: 2px red solid; */
+        width: 100%;
         margin-right: 0;
-        padding-right: 0;
+        padding-right: 0px;
+        clear: none;
+        text-align: center;
     }
 
     article.foot-care-text {
         width: 100%;
         padding: 0;
-        margin-top: 50px;
+        margin: 0px;
         padding-right: 0;
         margin-bottom: 50px;
+        float: none;
+        clear: none;
     }
 
     h2.foot-care-title {
@@ -504,19 +507,19 @@ label a {
         width: 100%;
         display: inline-block;
         padding: 0;
-        text-align: justify;
-        padding-left: 120px;
-        margin-top: 0;
+        text-align: center;
+        margin-top: 40px;
     }
 
     p.foot-care-p {
         font-size: 1.8rem;
-        margin-bottom: 35px;
-        margin-right: 320px;
-        padding-right: 70px;
-        margin-left: 20px;
-        text-align: center;
-        padding-left: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    #foot-care-button {
+        margin-left: 10px;
     }
 
     /* Giving Back Styles */
@@ -585,5 +588,61 @@ label a {
         margin: 0;
         padding: 10px;
         margin-bottom: 25px;
+    }
+
+    /* Footer/The End Styles */
+    .the-end {
+        height: 400px;
+    }
+    footer nav li {
+        float: none;
+        clear: none;
+    }
+
+    footer h3 {
+        font-size: 2rem;
+    }
+
+    div.contact-title {
+        float: none;
+        text-align: center;
+        margin-left: 60px;
+        margin-bottom: 40px;
+    }
+
+    .contact-title p {
+        font-size: 1rem;
+    }
+
+    div.updated-form {
+        float: none;
+        text-align: center;
+        margin-left: 110px;
+        margin-bottom: 60px;
+    }
+
+    .updated-form p {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    input {
+        margin-bottom: 20px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    label a{
+        margin-top: 10px;
+        padding: 3px 46px;
+    }
+
+    div.copyright {
+        display: inline-block;
+        margin-left: 80px;
+        position: relative;
+        bottom: 22px;
     }
 }
