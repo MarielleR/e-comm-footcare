@@ -146,7 +146,7 @@ header li {
 }
 
 article.specialize-text {
-    float: left;
+    float: right;
     width: 50%;
     padding: 30px 70px;
     margin-top: 120px;
@@ -165,7 +165,7 @@ article.specialize-text {
 }
 
 div.shoe-rack-pic {
-    float: left;
+    float: right;
     width: 50%;
     margin-right: 0;
 }
@@ -844,7 +844,7 @@ label a {
     .the-end {
         height: 400px;
     }
-    
+
     footer nav li {
         float: none;
         clear: none;
