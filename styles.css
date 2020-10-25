@@ -519,5 +519,32 @@ label a {
         padding-left: 0;
     }
 
-    /*  */
+    /* Giving Back Styles */
+    .giving-back-container {
+        width: 100%;
+    }
+
+    div.giving-img {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0px 15px 10px 15px; 
+    }
+
+    article.giving-text {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    h2.giving-back-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    p.giving-back-p {
+        font-size: 1.8rem;
+        text-align: left;
+        margin-right: 20px;
+        margin-left: 25px;
+    }
 }
